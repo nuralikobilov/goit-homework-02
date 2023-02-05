@@ -27,8 +27,7 @@ a{
 }
 .social-links a{
     color: #2E2F42;
-    font-family: 'Roboto';
-        font-style: normal;
+   font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -42,30 +41,40 @@ a{
 }
 .mail{
     color:#434455;
-        font-family: 'Roboto';
-            font-style: normal;
+        font-family: inherit;
             font-weight: 400;
             font-size: 16px;
             line-height: 1,5;
             letter-spacing: 0.02em;
+}
+.mail:hover{
+    background-color: orange;
+}
+.mail:focus{
+    background-color: #dada2a;
 }
 .phone{
     color: #434455;
-        font-family: 'Roboto';
-            font-style: normal;
+        font-family: inherit;
             font-weight: 400;
             font-size: 16px;
             line-height: 1,5;
             letter-spacing: 0.02em;
 }
+.phone:hover{
+    background-color: orange;
+}
+.phone:focus{
+    background-color: #dada2a;
+}
+         
 
 .section-baner{
     background-color: #2E2F42;
 }
 h1{
     color:#FFFFFF ;
-        font-family: 'Roboto';
-            font-style: normal;
+        font-family: inherit;
             font-weight: 700;
             font-size: 56px;
             line-height: 1,2;
@@ -75,11 +84,13 @@ h1{
     cursor: pointer;
     background-color:#4D5AE5 ;
     border-radius: 4px;
-        width: 169px;
-        height: 0,331;
+ 
+}
+.button:hover{
+    background-color: orange;
 }
 .sextion-text{
-background-color: #d42a2a;
+background-color: #dada2a;
 }
 .title{
     list-style: none;
@@ -90,21 +101,18 @@ background-color: #d42a2a;
 }
 h3{
     color:#2E2F42 ;
-            font-style: normal;
             font-weight: 500;
             font-size: 20px;
             line-height: 1,2;
 }
 .text{
     color: #434455;
-    font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1,5;
 }
 h2{
     color: #2E2F42;
-    font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1,111;
@@ -120,7 +128,6 @@ h2{
 }
 .main-team{
     color: #2E2F42;
-    font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1,111;
@@ -130,15 +137,13 @@ h2{
 }
 .team{
     color: #2E2F42;
-    font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1,2;
 }
 .job-title{
     color: #434455;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
@@ -150,7 +155,6 @@ h2{
 .web {
     color: #4D5AE5;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1, 333;
@@ -159,15 +163,13 @@ h2{
 .studio-footer {
     color: #F4F4FD;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1, 333;
 }
 .text-paragraph{
     color: #E7E9FC;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 400;
         font-size: 16px;
         line-height: 1,5;
@@ -182,8 +184,7 @@ h2{
     cursor: pointer;
     color: #FFFFFF;
     background-color: #404BBF;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -192,8 +193,7 @@ h2{
     cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -202,8 +202,7 @@ h2{
     cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -212,8 +211,7 @@ h2{
     cursor: pointer;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -222,8 +220,7 @@ h2{
     cursor: pointer;
     color: #4D5AE5;
      background-color: #F4F4FD;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1,5;
@@ -233,16 +230,14 @@ h2{
 }
 .list-portfolio{
     color: #2E2F42;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 20px;
         line-height: 1,2;
 }
 .text-portfolio{
     color: #434455;
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 400;
         font-size: 16px;
         line-height: 1,5;
