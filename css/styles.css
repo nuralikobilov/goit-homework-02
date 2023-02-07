@@ -6,7 +6,7 @@
     --fone-color:#E7E9FC;
     --dark-color:#2E2F42;
     --basic-color:#434455;
-
+    --gen-color:#FFFFFF;
 }
 body{
     font-family: Roboto, sans-serif;
@@ -16,31 +16,39 @@ body{
 }
 .web{
     color:var(--brand-color);
-        font-family: 'Raleway';
-            font-style: normal;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
 }
 .studio{
     color: var(--dark-color);
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
 }
-a{
+
+.logo{
     color: var(--basic-color);
- text-decoration: none;
+    text-decoration: none;
 }
-.social-links a{
+.head-link{
+    text-decoration: none;
+}
+.social-links .head-link.current{
+    color: var(--brand-color);
+    text-decoration: none;
+}
+.social-links {
     color: var(--dark-color);
-   font-family: inherit;
-font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;     
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;     
 }
 .social-links{
     list-style: none;
@@ -55,12 +63,13 @@ font-style: normal;
 }
 .mail{
     color:var(--text-color);
-        font-family: inherit;
-        font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .mail:hover,
 .mail:focus {
@@ -68,12 +77,13 @@ font-style: normal;
 }
 .phone{
     color: var(--text-color);
-        font-family: inherit;
-        font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+    text-decoration: none;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .phone:hover,
 .phone:focus{
@@ -85,14 +95,14 @@ font-style: normal;
     background-color: var(--dark-color);
 }
 h1{
-    color:#FFFFFF ;
-        font-family: inherit;
-            font-weight: 700;
-            font-size: 56px;
-            line-height: 1.2;
+    color:var(--gen-color) ;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2;
 }
 .button{
-    color: #FFFFFF;
+    color: var(--gen-color);
     cursor: pointer;
     background-color:var(--brand-color) ;
     border-radius: 4px;
@@ -101,33 +111,36 @@ h1{
 .button:hover{
     background-color: var(--back-color);
 }
+.button:active{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 .sextion-text{
-background-color: #dada2a;
+background-color: var(--basic-color);
 }
 .title{
     list-style: none;
 
 }
 .section-paragraph{
-    background-color: #FFFFFF;
+    background-color: var(--gen-color);
 }
 h3{
     color:var(--dark-color);
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .text{
     color: var(--text-color);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 h2{
-    color: #2E2F42;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.111;
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
 }
 .photo{
     list-style: none;
@@ -136,32 +149,32 @@ h2{
     background-color:var(--light-color);
 }
 .section-devices{
-    background-color: #FFFFFF;
+    background-color:var(--gen-color);
 }
 .main-team{
     color: var(--dark-color);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.111;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.111;
 }
 .name-team{
     list-style: none;
 }
 .image-card{
-    background-color: #FFFFFF;
+    background-color: var(--gen-color);
 }
 .team{
     color: var(--dark-color);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .job-title{
     color: var(--text-color);
     font-family: inherit;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+     line-height: 1.5;
 }
 .footer{
     background-color: var(--dark-color);
@@ -185,26 +198,27 @@ h2{
 .text-paragraph{
     color: var(--fone-color);
     font-family: inherit;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .main-studio{
-    background-color: #FFFFFF;
+    background-color: var(--gen-color);
 }
 .main-button{
    list-style: none;
 }
+
 .button-all{
     cursor: pointer;
     color: var(--brand-color);
     background-color: var(--light-color);
     font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     border: 1px solid var(--light-color);;
-        border-radius: 4px;
+    border-radius: 4px;
 }
 .button-all:hover{
     color: var(--light-color);
@@ -214,38 +228,45 @@ h2{
     color: var(--light-color);
     background-color: var(--back-color);
 }
+.button-all:active{
+    color: var(--brand-color);
+}
 .button-web{
     cursor: pointer;
     color: var(--brand-color);
     background-color: var(--light-color);
     font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        border: 1px solid var(--fone-color);
-            border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid var(--fone-color);
+     border-radius: 4px;
 }
 .button-web:hover,
 button-web:focus{
-    color: #FFFFFF;
+    color: var(--gen-color);
     background-color: var(--back-color);
 }
 .list{
     list-style: none;
+    text-decoration: none;
+}
+.list{
+    display: block;
 }
 .list-portfolio{
     color: var(--dark-color);
     font-family: inherit;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .text-portfolio{
     color: var(--text-color);
     font-family: inherit;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 .footer-portfolio{
     background-color:var(--dark-color);
