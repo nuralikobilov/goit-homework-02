@@ -37,6 +37,7 @@ body{
 }
 .head-link{
     text-decoration: none;
+    color: var(--text-color);
 }
 .social-links .head-link.current{
     color: var(--brand-color);
@@ -230,6 +231,10 @@ h2{
 }
 .button-all:active{
     color: var(--brand-color);
+}
+.button-all.current{
+    color: var(--gen-color);
+    background-color: var(--brand-color);
 }
 .button-web{
     cursor: pointer;
